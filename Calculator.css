@@ -1,0 +1,54 @@
+.calculator {
+  text-align: center;
+  background-color: #282c34; /* Cor de fundo escura para a calculadora */
+  border-radius: 10px; /* Borda arredondada */
+  padding: 20px; /* Espaçamento interno */
+  max-width: 400px; /* Largura máxima */
+  margin: 40px auto; /* Centraliza a calculadora */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar um efeito elevado */
+}
+
+.button {
+  font-size: 24px;
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Suaviza a transição dos estados do botão */
+}
+
+.button:hover {
+  background-color: #e6e6e6; /* Muda a cor do botão ao passar o mouse */
+  transform: translateY(-2px); /* Efeito de "levantar" o botão */
+}
+
+.button:active {
+  transform: translateY(1px); /* Efeito de pressionar o botão */
+}
+
+.operator {
+  background-color: #ffcc00;
+}
+
+.operator:hover {
+  background-color: #e6b800; /* Escurece o botão do operador ao passar o mouse */
+}
+
+.clear {
+  background-color: #ff6666;
+}
+
+.clear:hover {
+  background-color: #cc5151; /* Escurece o botão de limpar ao passar o mouse */
+}
+
+.equals {
+  background-color: #66cc66;
+}
+
+.equals:hover {
+  background-color: #5cb85c; /* Escurece o botão de igual ao passar o mouse */
+}
